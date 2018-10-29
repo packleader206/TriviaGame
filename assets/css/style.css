@@ -12,11 +12,25 @@ body {
 }
 
 .mainSection {
-    color: white;
-    font-style: bold;
+    color: black;
+    font-size: 25px;
+    font-style: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     /*background-image: URL("../images/gotWallpaper1PNG.png");*/
     opacity: 0.8;
-    padding: 40px;
+    padding: 20px;
     border-style: solid;
-    border-width: 5px;
+    border-width: 1px;
+}
+
+.timerTitle {
+    color: black;
+    font-style: bolder;
+    font-size: 15px;
+}
+
+.timerSpot {
+    font-style: bolder;
+    font-size: 30px;
+    color: red;
 }
