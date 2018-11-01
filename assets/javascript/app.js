@@ -40,6 +40,13 @@ $(document).ready(function() {
         gameReset();
     });
 
+    //event listener for stop quiz button click, user click invokes the startScreenSetup and pauses the music and resets the themesong to play from the beginning for the next time the game get's started
+    $("body").on("click", ".stop-button", function(event) {
+        startScreenSetup();
+        themeSong.currentTime = 0;
+        themeSong.pause();
+    })
+
 });
 
 let questionArray = ["Who defeated Prince Oberyn in hand to hand combat?", "Who is the second eldest son belonging to the House of Tarly?", "What is the name of John Snow's Direwolf?", "What nickname was given to Theon Greyjoy by his buddy Ramsay Snow?", "What is The Hound's real name in the show?", "Who is the leader of the White Walkers?", "Who is referred to as 'The King Beyond the Wall'?", "Who delivered the fatal blow that ultimately killed Rob Stark at his wedding?"];
@@ -122,7 +129,7 @@ var userSelection;
 
     //function to display game over status, final quiz stats & creates a button to invoke the gameReset function
     function gameOverScreen() {
-        gameScreen = "<p class='text-center timerTitle'>Time Remaining: </p><p class='timerSpot'>" + countdown + "</p>" + "<img class='images' src='assets/images/gameOverGif.gif'>" + "<p class='text-center results-title'>Here are your results:</p>" + "<p class='text-center results-total'> Correct Answers: " + correctTotal + "</p>" + "<p class='text-center results-total'>Incorrect Answers: " + incorrectTotal + "</p>" + "<p class='text-center results-total'>Questions Unanswered: " + unansweredTotal + "</p>" + "<p><button type='button' class='btn btn-success restart-button'>Restart the Quiz!</button></p>"; 
+        gameScreen = "<p class='text-center timerTitle'>Time Remaining: </p><p class='timerSpot'>" + countdown + "</p>" + "<img class='images' src='assets/images/gameOverGif.gif'>" + "<p class='text-center results-title'>Here are your results:</p>" + "<p class='text-center results-total'> Correct Answers: " + correctTotal + "</p>" + "<p class='text-center results-total'>Incorrect Answers: " + incorrectTotal + "</p>" + "<p class='text-center results-total'>Questions Unanswered: " + unansweredTotal + "</p>" + "<button type='button' class='btn btn-success restart-button'>Restart Quiz</button>" + "<button type='button' class='btn btn-danger stop-button'>Stop Quiz</button>"; 
         $(".mainSection").html(gameScreen);
     }
 
