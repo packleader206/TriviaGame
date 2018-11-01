@@ -1,9 +1,9 @@
 body {
-    background-image: URL("../images/gotWallpaper1PNG.png");
+    background-image: URL("../images/wallpaper2.png");
 }
 
 .mainHeader {
-    padding: 30px;
+    padding: 1px;
     margin-top: 20px;
     color: white;
     font-style: bold;
@@ -14,23 +14,71 @@ body {
 .mainSection {
     color: black;
     font-size: 25px;
-    font-style: bolder;
+    font-weight: 900;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /*background-image: URL("../images/gotWallpaper1PNG.png");*/
-    opacity: 0.8;
-    padding: 20px;
-    border-style: solid;
-    border-width: 1px;
+    opacity: 0.9;
+    padding: 10px;
 }
 
 .timerTitle {
     color: black;
-    font-style: bolder;
+    font-weight: 900;
     font-size: 15px;
 }
 
 .timerSpot {
-    font-style: bolder;
+    font-weight: 900;
     font-size: 30px;
     color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.answer-text {
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.answer {
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.images {
+    height: 250px;
+    width: 400px;
+    margin: (1px, 15px, 15px, 15px)
+}
+
+.start-button {
+    margin-top: 100px;
+}
+
+.results-title {
+    color: black;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.results-total {
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.answers:hover {
+    color: rgb(6, 110, 6);
+}
+
+.correct-color {
+    color: rgb(16, 204, 16);
+    font-weight: 900;
+}
+
+.wrong-color {
+    color: red;
+    font-weight: 900;
 }
