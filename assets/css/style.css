@@ -55,6 +55,7 @@ body {
 
 .start-button {
     margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .results-title {
@@ -82,3 +83,11 @@ body {
     color: red;
     font-weight: 900;
 }
+
+.warning-text {
+    color: black;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+

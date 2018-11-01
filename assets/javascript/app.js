@@ -5,11 +5,13 @@ $(document).ready(function() {
 
     //Start-screen setup function, generates 'Start' button in HTML
     function startScreenSetup() {
-        startScreen = "<button type='button' class='btn btn-success start-button'>Click to Start!</button>";
+        startScreen = "<button type='button' class='btn btn-success start-button'>Click to Start!</button>" + "<p class='warning-text'>***Warning: Graphic violent images. User discretion advised.***</p>";
         $(".mainSection").html(startScreen);
     }
+
     //invoke start screen
     startScreenSetup();
+    
 
     //event listener for start button click. Click starts theme song, generates HTML to start game & invokes timer function
     $("body").on("click", ".start-button", function(event) {
