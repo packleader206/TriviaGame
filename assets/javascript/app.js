@@ -45,6 +45,11 @@ $(document).ready(function() {
         startScreenSetup();
         themeSong.currentTime = 0;
         themeSong.pause();
+        questionCounter = 0;
+        correctTotal = 0;
+        incorrectTotal = 0;
+        unansweredTotal = 0;
+        countdown = 15;
     })
 
 });
