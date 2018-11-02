@@ -90,4 +90,12 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
+.restart-button {
+    margin-bottom: 20px;
+}
+
+.stop-button {
+    margin-bottom: 20px;
+}
+
 

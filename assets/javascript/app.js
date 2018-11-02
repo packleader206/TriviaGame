@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     //Start-screen setup function, generates 'Start' button in HTML
     function startScreenSetup() {
-        startScreen = "<button type='button' class='btn btn-success start-button'>Click to Start!</button>" + "<p class='warning-text'>***Warning: Graphic violent images. User discretion advised.***</p>";
+        startScreen = "<button type='button' class='btn btn-success start-button'>Click to Start!</button>" + "<p class='warning-text'>***Warning: Graphic & violent images. User discretion advised.***</p>";
         $(".mainSection").html(startScreen);
     }
 
@@ -15,7 +15,6 @@ $(document).ready(function() {
 
     //event listener for start button click. Click starts theme song, generates HTML to start game & invokes timer function
     $("body").on("click", ".start-button", function(event) {
-        //event.preventDefault();
         themeSong.play();
         generateHTML();
         timer();  
@@ -50,7 +49,7 @@ $(document).ready(function() {
         incorrectTotal = 0;
         unansweredTotal = 0;
         countdown = 15;
-    })
+    });
 
 });
 
@@ -122,6 +121,7 @@ var userSelection;
     function wait() {
         if (questionCounter < 7) {
             questionCounter++; 
+            console.log(questionCounter);
             generateHTML();
                      
             countdown = 15;
