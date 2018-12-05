@@ -8,6 +8,7 @@ This app tests the user's trivia knowledge of the popular HBO Television series,
 
 - HTML
 - CSS
+- Bootstrap
 - Javascript
 - JQuery
 
