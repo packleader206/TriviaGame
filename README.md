@@ -16,7 +16,7 @@ This app tests the user's trivia knowledge of the popular HBO Television series,
 
 ## Author:
 
-Al Young
+<strong>Al Young</strong>
 <hr>
 
 <img src="https://packleader206.github.io/TriviaGame/assets/images/GOTscreenshot.png" alt="Game of Thrones Trivia Game">
