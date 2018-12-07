@@ -12,13 +12,12 @@ This app tests the user's trivia knowledge of the popular HBO Television series,
 - Javascript
 - JQuery
 
-## Live Demo: 
-
-<strong>[Click Here](https://packleader206.github.io/TriviaGame/)</strong>
-
 ## Author:
 
 <strong>Al Young</strong>
 <hr>
+
+## [Click Here for a Live Demo](https://packleader206.github.io/TriviaGame/)
+<br>
 
 <img src="https://packleader206.github.io/TriviaGame/assets/images/GOTscreenshot.png" alt="Game of Thrones Trivia Game">
