@@ -12,7 +12,9 @@ This app tests the user's trivia knowledge of the popular HBO Television series,
 - Javascript
 - JQuery
 
-## Live Demo: [Click Here](https://packleader206.github.io/TriviaGame/)
+## Live Demo: 
+
+<strong>[Click Here](https://packleader206.github.io/TriviaGame/)</strong>
 
 ## Author:
 
